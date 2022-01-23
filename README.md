@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/nipunbhasarkar/word-color-association/actions/workflows/node.js.yml/badge.svg)](https://github.com/nipunbhasarkar/word-color-association/actions/workflows/node.js.yml)
+
 # Word Color Association
 
 This is a front end web application, with a responsive UI, which when given a word as input gives out a list of colors related to that word.
