@@ -41,3 +41,8 @@ Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.gi
 ## Authors
 
 - [@nipunbhasarkar](https://www.github.com/nipunbhasarkar)
+
+## Code coverage
+
+![image](https://user-images.githubusercontent.com/10637627/150692054-079d704a-9139-4160-a80b-bb6127b76c73.png)
+
