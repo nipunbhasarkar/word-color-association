@@ -1,12 +1,10 @@
 <header class="py-3 mb-3 border-bottom">
   <div class="container-fluid header-alignment">
-    <div class="d-inline-flex fs-2 fw-bold" style="color: #556270; cursor: pointer;" (click)="searchColors('');">Word
+    <div class="fs-2 fw-bold" style="color: #556270; cursor: pointer;" (click)="searchColors('');">Word
       Color Association</div>
-    <div class="d-inline-flex">
       <form class="m-2" style="width: 500px;" (ngSubmit)="searchColors(searchInput.value);">
         <input #searchInput class="p-4" type="search" class="form-control rounded-pill" placeholder="Search..."
           aria-label="Search">
       </form>
-    </div>
   </div>
 </header>
