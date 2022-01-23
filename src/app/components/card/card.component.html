@@ -1,0 +1,11 @@
+<div class="card shadow rounded text-center d-flex justify-content-center"
+  [ngClass]="card?.hex == 000000 ? 'text-light' : 'text-black-50'" style="width: 18rem;" [appColor]=card?.hex>
+  <img src="{{card?.imageUrl}}" class="card-img-top" alt="#{{card?.hex}}">
+  <div class="card-body">
+    <h5 class="card-title display-3 fs-4 fw-bold user-select-all">#{{card?.hex}}</h5>
+    <p class="card-text fs-5">Title: {{card?.title | titlecase}}
+    <p class="card-text fs-6">HSV: {{card?.hsv?.hue}} {{card?.hsv?.saturation}} {{card?.hsv?.value}}
+    <p class="card-text fs-6">RGB: {{card?.rgb?.red}} {{card?.rgb?.green}} {{card?.rgb?.blue}}
+    </p>
+  </div>
+</div>

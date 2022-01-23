@@ -1,0 +1,18 @@
+<app-header (searchColorsEvent)="searchColors($event);"></app-header>
+<div class="container my-5">
+  <div class="row g-5 align-items-center">
+    <ng-container *ngIf="colors$ | async as colors; else loading">
+      <div class="col" *ngFor="let card of colors">
+        <app-card [card]="card"></app-card>
+      </div>
+    </ng-container>
+    <ng-template #loading>
+      <div class="d-flex justify-content-center">
+        <div class="spinner-grow" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</div>
+<div class="mt-5" style="height: 100px;"></div>
