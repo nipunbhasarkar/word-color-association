@@ -13,9 +13,9 @@ An input field where users can type in any word and get results
 ### Related Color List
 
 - Once the user enters the input word, the related colors to that word will be listed
-out in the form of a masonry grid of color cards.
+  out in the form of a masonry grid of color cards.
 - Each color card will have the hex value of the color and a background of that
-respective color.
+  respective color.
 - [Color Lovers](https://colourlovers.com/api/colors) API is used as the backend for this purpose
 
 ## Libraries Used
@@ -47,4 +47,3 @@ Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.gi
 ## Code coverage
 
 ![image](https://user-images.githubusercontent.com/10637627/150692054-079d704a-9139-4160-a80b-bb6127b76c73.png)
-
