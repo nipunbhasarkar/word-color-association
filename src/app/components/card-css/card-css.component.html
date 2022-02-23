@@ -1,0 +1,11 @@
+<div class="card-container light" [appColor]=card?.hex [ngClass]="card?.hex == 000000 ? 'light' : 'dark'">
+  <div class="card-image width-height-100">
+    <img class="width-height-100" src="{{card?.imageUrl}}" alt="">
+  </div>
+  <hr>
+  <div class="circle"></div>
+  <h3>#{{card?.hex}}</h3>
+  <h5>Title: {{card?.title | titlecase}}</h5>
+  <p>HSV: {{card?.hsv?.hue}} {{card?.hsv?.saturation}} {{card?.hsv?.value}}</p>
+  <p>RGB: {{card?.rgb?.red}} {{card?.rgb?.green}} {{card?.rgb?.blue}}</p>
+</div>
