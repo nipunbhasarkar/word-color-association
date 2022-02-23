@@ -8,13 +8,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { CardComponent } from './components/card/card.component';
 import { HeaderComponent } from './components/header/header.component';
+import { CardCssComponent } from './components/card-css/card-css.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ColorDirective,
     CardComponent,
-    HeaderComponent
+    HeaderComponent,
+    CardCssComponent
   ],
   imports: [
     BrowserModule,
